@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Small-Box {
+  width: 90px;
+  height: 90px;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border: 2px solid #0361aa;
+  background-color: #010b16;
+  text-shadow:
+    -1px 0px 0px #f2378d,
+    1px 0px 0px #f2378d,
+    0px -1px 0px #f2378d,
+    0px 1px 0px #f2378d;
+    color: #e392ba;
+}
+
+.board-row {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  margin: 20px;
+}
+
+.board {
+  margin-top: 30px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 10px double #0361aa;
+}
+.refresh-button{
+  font-size:20px;
+  margin: 20px;
+  padding: 8px 12px;
+  background-color:coral;
+  color: black;
+  font-weight: 600;
+  border: 4px double black;
+}
